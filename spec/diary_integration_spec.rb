@@ -1,7 +1,7 @@
 require "diary"
 require "diary_entry"
 require "todo"
-
+# More tests required to completely test the classses.
 RSpec.describe "Integration Tests" do
     context "Passed one diary entry/task" do
         it "Can read the diary entries " do
